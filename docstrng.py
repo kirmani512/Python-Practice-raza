@@ -7,4 +7,7 @@ def square(n):
     print(n**2)
 
 square(5)
+
 print(square.__doc__)
+
+#PEP-8 or the Python Enhancement Proposal presents some of the key points that you can use to make your code more organized and readable
