@@ -77,8 +77,28 @@
     
 #     print(line)
 
-    #wrtieline method is used to write items of list to the file////////////////////////
-f=open('myfile3.txt','w')
-lines=['line 1\n','line 2\n','line 3\n']
-f.writelines(lines)
-f.close()
+ #wrtieline method is used to write items of list to the file////////////////////////
+# f=open('myfile3.txt','w')
+# lines=['line 1\n','line 2\n','line 3\n']
+# f.writelines(lines)
+# f.close()
+
+
+#seek() and tell()//////////////////////////////////////////////////////////////////////////////////
+
+# with open('file.txt','r') as f:
+#     print(type(f))
+#     f.seek(10) #reads file from 10th character position
+
+#     print(f.tell()) #tells to which point fn is seeked
+#     data=f.read(5) #reads 5 bytes from 10th character position
+#     print(data)
+
+
+#truncate()
+with open('file.txt','w') as f:
+    f.write('Hello by truncate')
+    f.truncate(5) #tells there should be only 5 chars in file
+
+with open('file.txt','r') as f:
+    print(f.read())
