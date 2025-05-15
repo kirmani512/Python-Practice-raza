@@ -23,6 +23,8 @@ def total_books():
 
 add_book()
 
+add_book()
+
 total_books()
 
 
