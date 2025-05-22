@@ -27,6 +27,6 @@ print(p.__dict__) #gives all the class attributes like self.name and self.age as
 
 
 #help//////////////////////////////////////////////////////////////////////
-#it is used to get help documentation of ann object
+#it is used to get help documentation of an object
 
 print(help(person))
