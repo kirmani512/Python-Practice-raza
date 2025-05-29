@@ -7,5 +7,5 @@ i=1
 for file in files:
     if file.endswith(".jpg"):
         print(file)
-        os.rename(f"cluttered/{file}",f"cluttered/{i}.jpg")
+        os.rename(f"cluttered/{file}",f"cluttered/barat-{i}.jpg")
         i=i+1
