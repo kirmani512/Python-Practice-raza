@@ -9,7 +9,7 @@ class vector:
     def __str__(self):
         return f"{self.i}i + {self.j}j + {self.k}k"
     
-    def __add__(self,x):  #operator overloading
+    def __add__(self,x):  #operator overloading here self considered as v and x considered as v1
         # return f"{self.i+x.i}i + {self.j+x.j}j + {self.k+x.k}k"
         return vector(self.i+x.i , self.j+x.j , self.k+x.k)
 
