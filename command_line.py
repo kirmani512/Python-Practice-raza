@@ -11,7 +11,7 @@ def main():
     parser.add_argument("y",type=float,help="second number")
     parser.add_argument("--add",action="store_true",help="add numbers")
 
-    args=parser.parse_args() #here parer is the command line parser --------------- .parse_args() reaads what the user typed in the terminal
+    args=parser.parse_args() #here parser is the command line parser --------------- .parse_args() reaads what the user typed in the terminal
 
     if args.add:
         result=args.x+args.y
