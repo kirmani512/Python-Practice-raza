@@ -19,7 +19,7 @@ def main():
 
     # for p in pros:
     #     p.join()
-
+#above can also be done ///////////////////////////////////////////////////
     with concurrent.futures.ProcessPoolExecutor() as executor:
         l1=[url for i in range(60)]
         l2=[i for i in range(60)]
